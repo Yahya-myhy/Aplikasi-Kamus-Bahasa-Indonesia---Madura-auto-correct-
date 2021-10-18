@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:id="@+id/txtview_indo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Indonesia"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtxt_indo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtview_indo"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Indonesia" />
+
+    <TextView
+        android:id="@+id/txtview_madura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt_indo"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Madura" />
+
+    <EditText
+        android:id="@+id/edtxt_madura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtview_madura"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Madura" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtxt_madura"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_button"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"
+        android:onClick="simpan"
+        android:text="Simpan" />
+
+</RelativeLayout>

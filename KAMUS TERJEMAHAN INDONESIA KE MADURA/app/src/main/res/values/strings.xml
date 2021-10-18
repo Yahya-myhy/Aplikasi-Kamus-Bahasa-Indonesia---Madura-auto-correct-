@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KAMUS</string>
+    <string-array name="pilih_bahasa">
+        <item>Indonesia</item>
+        <item>Madura</item>
+    </string-array>
+</resources>
